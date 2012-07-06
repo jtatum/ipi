@@ -41,7 +41,7 @@ def _parse_filename(filename):
        ('BeautifulSoup', '3.2.1')
     """
     (package, version) = filename.rsplit('.tar.gz')[0].rsplit('-',1)
-    return (filename, package, version)
+    return (package, version)
 
 
 def install():
